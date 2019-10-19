@@ -18,12 +18,19 @@
       "type": "string",
       "required": true
     },
-    "countries": {
-      "type": [
-        "geopoint"
-      ],
-      "required": true
-    }
+    "countries": [
+      {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    ]
   },
   "validations": [],
   "relations": {},
