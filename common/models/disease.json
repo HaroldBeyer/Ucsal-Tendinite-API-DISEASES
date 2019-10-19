@@ -1,0 +1,32 @@
+{
+  "name": "disease",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "data_init": {
+      "type": "string",
+      "required": true
+    },
+    "data_end": {
+      "type": "string",
+      "required": true
+    },
+    "countries": {
+      "type": [
+        "geopoint"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
