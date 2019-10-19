@@ -12,7 +12,7 @@
     },
     "data_init": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "data_end": {
       "type": "string",
