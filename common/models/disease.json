@@ -12,11 +12,10 @@
     },
     "data_init": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "data_end": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "countries": [
       {
